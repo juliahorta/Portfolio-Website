@@ -1,0 +1,70 @@
+.column1 {
+  float: left;
+  width: 71%;
+  background-color: #FFF6BB;
+}
+
+.columnspace{
+  float: right;
+  width: 2%;
+}
+
+.column2 {
+  float: right;
+  width: 27%;
+  background-color: #FFF6BB;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+button {
+  font-size: 90%;
+  font-family: helvetica;
+}
+
+.mc1 {
+  float: left;
+  width: 50%;
+  background-color: #FFF6BB;
+}
+
+.mc2 {
+  float: right;
+  width: 50%;
+  background-color: #FFF6BB;
+}
+
+nav ul li{
+  display: inline;
+  color: black;
+}
+
+body {
+  font-family: helvetica;
+  text-align: center;
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-top: 2%;
+}
+
+.head{
+  background-color: #FFF6BB;
+  padding-top: 0.2%;
+  padding-bottom: 0.2%;
+}
+
+footer{
+  background-color: #FFF6BB;
+  padding-top: 0.2%;
+  padding-bottom: 0.2%;
+}
+
+figure{
+  float: left;
+  width: 90%;
+}
